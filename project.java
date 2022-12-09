@@ -47,7 +47,7 @@ public class project {
         b1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 double d = Double.parseDouble(t1.getText());
-                double d1 = (d / 65.25);
+                double d1 = (d / 82.42);
                 String str1 = String.valueOf(d1);
                 t2.setText(str1);
             }
@@ -56,7 +56,7 @@ public class project {
         b2.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 double d2 = Double.parseDouble(t2.getText());
-                double d3 = (d2 * 65.25);
+                double d3 = (d2 * 82.42);
                 String str2 = String.valueOf(d3);
                 t1.setText(str2);
             }
